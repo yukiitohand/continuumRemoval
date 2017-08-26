@@ -52,8 +52,8 @@ else
             otherwise
                 % Hmmm, something wrong with the parameter string
                 error(['Unrecognized option: ''' varargin{i} '''']);
-        end;
-    end;
+        end
+    end
 end
 
 switch lower(cntType)
